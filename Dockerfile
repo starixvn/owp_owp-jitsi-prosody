@@ -1,0 +1,10 @@
+FROM hub.nexdev.net/base/jitsi/prosody:prosody-13.0.1
+
+ENV JICOFO_AUTH_USER=focus \
+    JICOFO_AUTH_PASSWORD=1234aa \
+	JVB_AUTH_USER=jvb \
+    JVB_AUTH_PASSWORD=1234aa \
+    XMPP_DOMAIN=meet.jitsi \
+    XMPP_AUTH_DOMAIN=auth.meet.jitsi \
+    XMPP_MUC_DOMAIN=muc.meet.jitsi \
+    XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
