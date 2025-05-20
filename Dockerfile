@@ -11,6 +11,6 @@ ENV JICOFO_AUTH_USER=focus \
     XMPP_DOMAIN=meet.jitsi \
     XMPP_AUTH_DOMAIN=auth.meet.jitsi \
     XMPP_MUC_DOMAIN=muc.meet.jitsi \
-    XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
+    XMPP_INTERNAL_MUC_DOMAIN=internal-muc.auth.meet.jitsi
 
 EXPOSE 5222 5280
