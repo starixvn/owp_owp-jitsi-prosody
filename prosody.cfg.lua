@@ -1,8 +1,10 @@
 -- Enable HTTP
 http_ports = { 5280 }
 consider_bosh_secure = true;
-cross_domain_bosh = false;
+cross_domain_bosh = true;
+cross_domain_websocket = true; 
 modules_enabled = {
+  "bosh";
     "roster"; "saslauth"; "tls"; "dialback"; "disco"; "carbons";
     "pep"; "private"; "blocklist"; "vcard4"; "vcard_legacy";
     "version"; "uptime"; "time"; "ping"; "register"; "admin_adhoc";
